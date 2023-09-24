@@ -1,6 +1,4 @@
 import React from 'react'
-// import dashboardIcon from './assets/dashboardIcon.svg';
-
 function Sidebar() {
   return (
     <>
@@ -20,7 +18,7 @@ function Sidebar() {
                               
                                 <li className="nav-item">
                                     <a href="javascript(void)"> 
-                                        <img  src="/src/assets/dashboardIcon.svg" alt="dashboardIcon"  className="img-fluid"/>
+                                        <img  src="src/assets/dashboardIcon.svg" alt="dashboardIcon"  className="img-fluid"/>
                                         <span >Dashboard</span>
                                     </a>
                                 </li>
@@ -32,38 +30,38 @@ function Sidebar() {
                                </li>
                                <li className="nav-item">
                                    <a href="javascript(void)"> 
-                                       <img src="src\assets\AppointmentIcon.svg" alt="AppointmentIcon"  className="img-fluid"/>
+                                       <img src="/src/assets/AppointmentIcon.svg" alt="AppointmentIcon"  className="img-fluid"/>
                                        <span className='nav1'>Appointment </span>
                                    </a>
                                </li>
                                <li className="nav-item">
                                    <a href="javascript(void)"> 
-                                       <img src="src\assets\medicine-order-Icon.svg" alt="MedicineOrderIcon"  className="img-fluid"/>
+                                       <img src="/src/assets/medicine-order-Icon.svg" alt="MedicineOrderIcon"  className="img-fluid"/>
                                        <span className='nav1'>Medicine Order</span>
                                    </a>
                                </li>
                                <li className="nav-item">
                                    <a href="javascript(void)"> 
-                                       <img src="src\assets\Message Icon.svg" alt="MessageIcon"  className="img-fluid"/>
+                                       <img src="/src/assets/Message Icon.svg" alt="MessageIcon"  className="img-fluid"/>
                                        <span className='nav1'>Message</span>
                                    </a>
                                </li>
                                <li className="nav-item">
                                    <a href="javascript(void)"> 
-                                       <img src="src\assets\payment Icon.svg" alt="PaymentIcon"  className="img-fluid"/>
+                                       <img src="/src/assets/payment Icon.svg" alt="PaymentIcon"  className="img-fluid"/>
                                        <span className='nav1'>Payment</span>
                                    </a>
                                </li>
                                <li className="nav-item">
                                    <a href="javascript(void)"> 
-                                       <img src="src\assets\settings icon.svg" alt="SettingsIcon"  className="img-fluid"/>
+                                       <img src="/src/assets/settings icon.svg" alt="SettingsIcon"  className="img-fluid"/>
                                        <span className='nav1'>Settings</span>
                                    </a>
                                </li>
    
                                <li className="nav-item help">
                                    <a href="javascript(void)"> 
-                                       <img src="src\assets\help Icon.svg" alt="HelpIcon"  className="img-fluid"/>
+                                       <img src="/src/assets/help Icon.svg" alt="HelpIcon"  className="img-fluid"/>
                                        <span className='nav1'>Help</span>
                                    </a>
                                </li>
