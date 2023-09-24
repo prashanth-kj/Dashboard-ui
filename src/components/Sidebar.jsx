@@ -7,15 +7,16 @@ function Sidebar() {
                 <div className="container">
                       <nav className="navbar navbar-expand-lg d-flex flex-wrap">
                       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
+                           <span className="navbar-toggler-icon"></span>
+                      </button>
+
                       
                         <div className="navbar-brand mt-4 ">
-                             <span className='navhead'> <h3 style={{color:"#0B63F8"}}>Guvi Sales</h3> </span>
+                             <span className='navhead'> <h3 style={{color:"#0B63F8"}}>Guvi Sales</h3></span>
                         </div>
                        
                         <div className="collapse navbar-collapse" id='myNavBar'>
-                            <ul className="nav nav-pills flex-column">
+                            <ul className="nav nav-pills flex-column" >
                               
                                 <li className="nav-item">
                                 
