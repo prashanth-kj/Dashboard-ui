@@ -18,14 +18,16 @@ function Sidebar() {
                             <ul className="nav nav-pills flex-column">
                               
                                 <li className="nav-item">
+                                <img src='/dashboardicon.svg' alt="dashboardicon" />
                                     <a href="javascript(void)"> 
-                                        <img src='/public/dashboardicon.svg' alt="dashboardicon" />
+                                        
                                         <span >Dashboard</span>
                                     </a>
                                 </li>
                                 <li className="nav-item">
+                                <img src="/labicon.svg" alt="labicon" />
                                    <a href="javascript(void)"> 
-                                       <img src="/public/labicon.svg" alt="labicon" />
+                                       
                                        <span  className='nav1'>Lab Test</span>
                                    </a>
                                </li>
