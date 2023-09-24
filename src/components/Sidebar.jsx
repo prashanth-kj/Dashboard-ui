@@ -1,4 +1,5 @@
 import React from 'react'
+// import dashboardIcon from './assets/dashboardIcon.svg';
 
 function Sidebar() {
   return (
@@ -19,13 +20,13 @@ function Sidebar() {
                               
                                 <li className="nav-item">
                                     <a href="javascript(void)"> 
-                                        <img  src=".src/assets/dashboardIcon.svg" alt="dashboardIcon"  className="img-fluid"/>
+                                        <img  src="/src/assets/dashboardIcon.svg" alt="dashboardIcon"  className="img-fluid"/>
                                         <span >Dashboard</span>
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                    <a href="javascript(void)"> 
-                                       <img src="src\assets\labIcon.svg" alt="LabIcon"  className="img-fluid"/>
+                                       <img src="/src/assets/labIcon.svg" alt="LabIcon"  className="img-fluid"/>
                                        <span  className='nav1'>Lab Test</span>
                                    </a>
                                </li>
