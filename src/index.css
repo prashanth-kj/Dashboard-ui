@@ -1,0 +1,43 @@
+.root{
+    --lightgrey-color: #F8F8F8;
+    --white-color:#FFF;
+}
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+ul{
+  margin-top: 35px !important;
+}
+ul,li,a{
+  margin-top: 20px;
+  text-decoration: none !important;
+  list-style:none ;
+}
+li img{
+   margin-right: 12px !important;
+}
+.help{
+  margin-top:240px;
+}
+.navhead{
+
+  font-family: Poppins;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: normal;
+}
+.nav1{
+  color: #131313 !important;
+  font-family: Poppins;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+.tabledata{
+     padding-top: 30px !important;
+     padding-bottom: 30px !important;
+}
