@@ -82,7 +82,7 @@ function Dashboard() {
                                   <input type="text" className="form-control w-50"  id="floatingInputGroup1" placeholder="Username"/>
                                   <label htmlFor="floatingInputGroup1">Search</label>
                                 </div>
-                                 <img src="/notificationicon" alt="Notification Icon"/>
+                                 <img src="/notificationicon.svg" alt="Notification Icon"/>
                               </div>
                          </div> 
                         <div className="row mt-3">
@@ -101,7 +101,7 @@ function Dashboard() {
                                 <Table   hover  responsive="xs">
                                             <thead>
                                                 <tr>
-                                                <th className='text-center'><img src="src\assets\minus-square-icon.svg" alt="squreicon"  /></th>
+                                                <th className='text-center'><img src="/minus-square-icon.svg" alt="squreicon"  /></th>
                                                 <th>Invoice ID</th>
                                                 <th>Date</th>
                                                 <th>Customer</th>
@@ -114,7 +114,7 @@ function Dashboard() {
                                                 {
                                                     TableData.map((e,i)=>{
                                                         return  <tr key={i}>
-                                                                <td className='text-center'><img src="src\assets\minus-square-icon.svg" alt="squreicon" /></td>
+                                                                <td className='text-center'><img src="/minus-square-icon.svg" alt="squreicon" /></td>
                                                                 <td style={{color:"#0B63F8"}}>{e.invoiceId}</td>
                                                                 <td>{e.date}</td>
                                                                 <td>{e.customer}</td>
