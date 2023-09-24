@@ -82,7 +82,7 @@ function Dashboard() {
                                   <input type="text" className="form-control w-50"  id="floatingInputGroup1" placeholder="Username"/>
                                   <label htmlFor="floatingInputGroup1">Search</label>
                                 </div>
-                                 <img src="./assets\Notification icon.svg" alt="Notification Icon"/>
+                                 <img src=".\src\assets\Notification icon.svg" alt="Notification Icon"/>
                               </div>
                          </div> 
                         <div className="row mt-3">
