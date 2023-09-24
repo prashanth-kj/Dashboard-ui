@@ -1,7 +1,7 @@
 
 import './App.css'
-import Dashboard from './components/Dashboard'
-import Sidebar from './components/sidebar'
+import  Sidebar from "src\components\Sidebar.jsx"
+import  Dashboard from "src\components\Dashboard.jsx"
 
 function App() {
  
