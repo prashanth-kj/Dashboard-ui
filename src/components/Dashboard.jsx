@@ -77,12 +77,12 @@ function Dashboard() {
                     <div className="container ">
                         <div className=" row mt-5">
                             <div className="input-group mb-3 ">
-                                <img className="input-group-text bg-white"  src="src\assets\search-icon.svg" alt="search icon"/>
+                                <img className="input-group-text bg-white"  src="/searchicon.svg" alt="search icon"/>
                                 <div className="form-floating">
                                   <input type="text" className="form-control w-50"  id="floatingInputGroup1" placeholder="Username"/>
                                   <label htmlFor="floatingInputGroup1">Search</label>
                                 </div>
-                                 <img src=".\src\assets\Notification icon.svg" alt="Notification Icon"/>
+                                 <img src="/notificationicon" alt="Notification Icon"/>
                               </div>
                          </div> 
                         <div className="row mt-3">
