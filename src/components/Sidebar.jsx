@@ -20,7 +20,7 @@ function Sidebar() {
                                 <li className="nav-item">
                                 
                                     <a href="javascript(void)"> 
-                                     <img src='/dashboardicon.svg' alt="dashboardicon" />
+                                     <img src='/assets/dashboardicon.svg' alt="dashboardicon" />
                                         <span >Dashboard</span>
                                     </a>
                                 </li>
