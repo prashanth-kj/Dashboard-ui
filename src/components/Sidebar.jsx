@@ -19,13 +19,13 @@ function Sidebar() {
                               
                                 <li className="nav-item">
                                     <a href="javascript(void)"> 
-                                        <img src="/src/assets/dashboardicon.svg" alt="dashboardicon" />
+                                        <img src="/public/dashboardicon.svg" alt="dashboardicon" />
                                         <span >Dashboard</span>
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                    <a href="javascript(void)"> 
-                                       <img src="/src/assets/labicon.svg" alt="labicon" />
+                                       <img src="/public/labicon.svg" alt="labicon" />
                                        <span  className='nav1'>Lab Test</span>
                                    </a>
                                </li>
