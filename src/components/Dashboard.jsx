@@ -73,7 +73,7 @@ function Dashboard() {
         
   return (
     <> 
-        <div className="col-sm-10 bg-body-tertiary">
+        <div className="col-lg-10 bg-body-tertiary">
                     <div className="container ">
                         <div className=" row mt-5">
                             <div className="input-group mb-3 ">
@@ -98,7 +98,8 @@ function Dashboard() {
                                 </div>       
                         </div>                       
                          <div className='row mt-5'>
-                                <Table   hover  responsive="xs">
+                               <div className='col-md-10 me-4'>
+                               <Table   hover  responsive="md" >
                                             <thead>
                                                 <tr>
                                                 <th className='text-center'><img src="/minus-square-icon.svg" alt="squreicon"  /></th>
@@ -127,6 +128,7 @@ function Dashboard() {
                                                 
                                             </tbody>
                                </Table>
+                               </div>
                          </div>
 
                          

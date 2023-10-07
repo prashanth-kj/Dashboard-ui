@@ -18,8 +18,8 @@ function Sidebar() {
                         <div className="collapse navbar-collapse" id='myNavBar'>
                             <ul className="nav nav-pills flex-column" >
                               
-                                <li className="nav-item">
-                                
+                                <li className='nav-item active'>
+                                    <img src="/Activeicon.svg" alt="activeicon"  className='active'/>
                                     <a href="javascript(void)"> 
                                        <img src='/dashboardicon.svg' alt="dashboardicon"  className="img-fluid"/>
                                         <span >Dashboard</span>
