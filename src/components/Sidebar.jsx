@@ -12,13 +12,13 @@ function Sidebar() {
 
                       
                         <div className="navbar-brand mt-4 ">
-                             <span className='navhead'> <h3 style={{color:"#0B63F8"}}>Guvi Sales</h3></span>
+                             <span className='navhead' id='app-name'> <h3 style={{color:"#0B63F8"}}>Guvi Sales</h3></span>
                         </div>
                        
                         <div className="collapse navbar-collapse" id='myNavBar'>
                             <ul className="nav nav-pills flex-column" >
                               
-                                <li className='nav-item active'>
+                                <li className='nav-item active' id='dashboard'>
                                     <img src="/Activeicon.svg" alt="activeicon"  className='active'/>
                                     <a href="javascript(void)"> 
                                        <img src='/dashboardicon.svg' alt="dashboardicon"  className="img-fluid"/>
@@ -63,7 +63,7 @@ function Sidebar() {
                                    </a>
                                </li>
    
-                               <li className="nav-item help">
+                               <li className="nav-item help" id='help-item'>
                                    <a href="javascript(void)"> 
                                        <img src="/helpicon.svg" alt="HelpIcon"  className="img-fluid"/>
                                        <span className='nav1'>Help</span>
